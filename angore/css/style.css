@@ -1,0 +1,96 @@
+:root{
+    
+}
+.container{
+    width: 100% !important;
+}
+.navbar-brand{
+    margin right: 5em;;
+}
+
+.icons{
+    margin-right: 5em;
+    justify-content: space-between;
+}
+.icons a{
+    color: black;
+    justify-content: space-between;
+}
+.active
+{
+color: red !important;
+}
+.header h1{
+    align-items: center center !important;
+    justify-content: center !important;
+}
+
+.carousel-dark .carousel-caption h1{
+color: #fff;
+justify-content: center center !important;
+align-items: center !important;
+
+
+}
+.title-shadow{
+    position: relative;
+}
+
+.title-shadow::before{
+content: "a";
+text-transform: uppercase;
+color:rgb(189, 198, 205);
+font-size: 60px;
+position: absolute;
+top: -10px;
+left: 50%;
+transform: translate(-50%,-20%);
+z-index: -1;
+
+}
+.progressbar{
+    justify-content: space-between !important;
+}
+.ghhg{
+    display: flex;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.lorem{
+    width: 50%;
+}
+.skills{
+    width: 50%;
+    justify-content: space-evenly !important;
+
+}
+.w-100{
+    width: 100vh;height: 100vh;
+background-image: url(../images/174856.jpg);
+background-position: center center;
+background-size: cover;
+overflow: hidden;
+}
+.w-100{
+  position: relative;  
+}
+.aaa{
+    
+}
+.icon{
+
+  position: absolute;
+  top: 10px;
+  
+   color: #fff;
+}
+
+.pc{
+    
+
+
+
+}
+row py-5{
+    color: #fff;
+}

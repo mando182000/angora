@@ -1,0 +1,242 @@
+*{
+    font-family: sans-serif;
+    
+    
+    list-style: none;
+    
+}
+
+    .contain{
+        
+        
+background-image: url(../images/slider-02.jpg);
+        height:100svb;
+               
+              background-size: cover;
+             
+    }
+   
+
+  .section1 {
+        
+        color: red;
+        
+        
+    }
+     .navbar .section1 a{
+        color: red;
+    }
+    .navbar :hover{
+        color: red;
+    }
+
+    .navbar ul li a{
+        color: #fff;
+    
+        
+        
+        
+    }
+    .section2.content{
+        justify-content: center !important;
+        align-items: center center !important;
+    }
+    
+    
+    
+    
+   
+    @media  and(max- width 600px) {
+        .section2.content
+    {
+        width: 100vh;
+    }
+    }
+    
+    .section2{
+        justify-content: center;
+        position: absolute;
+
+    }
+   .other.person.information ::before{
+    border: solid 3px;
+   } 
+
+   .other.person.information{
+    
+   }    
+    
+    
+    
+
+    .section2{
+        color: #fff;font-weight: 900;
+        
+    }
+    .section4 ::after{
+        content:"........." ;
+        animation: typinganimat 9s ease-in-out  infinite;
+
+    }
+    @keyframes typinganimat{
+        10% {content:"."}
+        20%{
+            content: "..";
+        }
+        30%{
+            content: "...";
+        }
+        40%{
+            content: "....";
+        } 
+        50%{
+            content: ".....";
+        }
+        60%{
+            content: "......";
+        }
+        70%{
+            
+            content: ".....";
+            }
+
+        80%{
+            content: "....";
+        }
+        90%{
+            content: "...";
+        }
+        95%{
+            content: "..";
+        }
+
+        100%{
+            content: ".";
+        }
+       
+    }
+       
+       
+    
+
+    .section3{
+        margin: 100px;
+        
+    }
+
+    .border
+    {
+        
+        border: 5px solid #000;
+    }
+    .img{
+        width: 350px
+    }
+    .img{
+
+        position: relative;
+        top: 10px;
+        left: 10px;
+    }
+    .other.person.information.name{
+        display: flex;
+    }
+    .section5{
+        display: flex;
+    }
+    .information  H2{
+    font-weight: 700;
+    margin-top: 100px;
+    
+    
+    }
+    
+  
+    .job{
+        margin-bottom:10 px;
+    }
+   .name{
+    display: flex;
+    
+    
+    }
+    .job{
+        margin-left:10%
+    }
+    .age{
+        display: flex;
+
+    }
+    .location{
+        margin-left: 16%;
+    }
+    .freelance{
+        display: flex;
+    }
+    .e-mail{
+        margin-left: 11%;
+    }
+    .btn{
+        width: 15px;display: flex;
+        margin: 20px;
+        height: 100px;
+        border 1px solide: #700;
+        
+    
+        
+        ;
+    }
+    
+    .hire{
+        margin-left:150px;
+    }
+    .all{
+        justify-content: space-around;margin: 50px;
+        margin-bottom:10% ;
+    }
+    .btn-download button{
+        background-color: #ee1616;
+        color: #fff;
+        padding: 20px;
+        cursor: pointer;
+        width: fit-content;
+    }
+
+   .hire button{
+    background-color: #e91010;
+    color: #fff;
+    padding: 20px;
+    /* padding-right: 20px; */
+    cursor: pointer;
+    width: 100px;
+    
+    
+   }
+   .section6{
+    background-color: darkgray;
+    padding: 20px;
+    width: 100%;
+   }
+  
+
+   .icon{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    
+   }
+   .portfolio ul  {
+
+    display: flex;
+    justify-content: space-between;
+   }
+   .portfolio ul li a {
+    justify-content: space-between;
+    margin-right: 30px;
+    text-decoration: none;
+    
+   } 
+   .portfolio .links ul li a :hover{
+    color: deeppink    ;
+   }

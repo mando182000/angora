@@ -1,0 +1,26 @@
+.body{
+    background-color: black;
+}
+section1{
+    height: 100px !important;
+}
+.carda{
+background-color: aqua !important
+;}
+
+
+.collapse navbar-collapse a :hover{
+color: red;
+}
+h1{
+    cursor: pointer;
+}
+@media screen and  (max-width: 600px)
+    
+  {
+    .w-50 image {
+    width: 10%;
+       
+ 
+    }
+  }
